@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter');
+body{
+	background-color: black;
+	font-family: 'Bitter', serif;
+	font-size: 24px;
+	color: white;
+}
+footer{
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	font-style: italic;
+}
+a:link{
+	color: black;
+  	text-shadow:
+   	-1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    text-decoration: none;
+}
+a:visited{
+	color: black;
+  	text-shadow:
+   	-1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-shadow:
+   	-1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    text-decoration: none;
+}
+a:active{
+	color: white;
+	text-shadow:
+   	-1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    text-decoration: none;
+}
+.da{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+}
+.em{
+	display:inline;
+	font-family: 'Abril Fatface', cursive;
+	font-style: italic;
+	font-size: 30px;
+}
+.armed{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+	transform: scale(0.6,1)
+}
+.subject{
+}
+h1{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 80px;
+	transform: scale(1.1,1)
+}
+#king{
+	font-size: 30px;
+}
+#from{
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 100;
+}
+#everybody{
+}
