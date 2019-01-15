@@ -5,7 +5,7 @@ body{
 .poster{
 	position: relative;
 	height: 100vh;
-	width: 70vh;
+	width: 68vh;
 	background-color: rgb(230, 231, 233);
 	border: 1px solid rgb(230, 231, 233);
 	padding: 1px;
@@ -13,7 +13,7 @@ body{
 }
 h1{
 	position: absolute;
-	top: 65vh;
+	top: 63vh;
     float: left;
     clear: left;
     width: 17vh;
@@ -23,7 +23,7 @@ h1{
 }
 dl{
 	position: absolute;
-	top: 74vh;
+	top: 72vh;
 	font-size: 1.1vh;
 	line-height: 1.15vh;
 	letter-spacing: -0.05vh;
@@ -43,120 +43,139 @@ dd {
 }
 .ring1{
 	position: absolute;
-	bottom: 2.3vh;
+	bottom: 4.8vh;
 	left: -7.2vh;
 	background: transparent;
-    width:47.4vh;
-    height:47.4vh;
-    border-radius:23.7vh;
+    width:44.4vh;
+    height:44.4vh;
+    border-radius:22.2vh;
 }
 .ring1:before{
     content:'';
     position:absolute;
-    width:47.4vh;
-    height:47.4vh;
-    border-radius:23.7vh;
+    width:44.4vh;
+    height:44.4vh;
+    border-radius:22.2vh;
     box-shadow: 0 0 0 1vh black;
 }
 .ring2{
 	position: absolute;
-	bottom: 1.1vh;
+	bottom: 3.6vh;
 	left: -8.4vh;
 	background: transparent;
-	height: 49.8vh;
-	width: 49.8vh;
-	border-radius: 24.9vh;
+	height: 46.8vh;
+	width: 46.8vh;
+	border-radius: 23.4vh;
 }
 .ring2:before{
     content:'';
     position:absolute;
-	height: 49.8vh;
-	width: 49.8vh;
-	border-radius: 24.9vh;
+	height: 46.8vh;
+	width: 46.8vh;
+	border-radius: 23.4vh;
     box-shadow: 0 0 0 2vh black;
 }
 .ring3{
 	position: absolute;
-	bottom: -1.1vh;
+	bottom: 1.4vh;
 	left: -10.6vh;
 	background: transparent;
-	height: 54.2vh;
-	width: 54.2vh;
-	border-radius: 27.1vh;
+	height: 51.2vh;
+	width: 51.2vh;
+	border-radius: 25.6vh;
 }
 .ring3:before{
     content:'';
     position:absolute;
-	height: 54.2vh;
-	width: 54.2vh;
-	border-radius: 27.1vh;
+	height: 51.2vh;
+	width: 51.2vh;
+	border-radius: 25.6vh;
     box-shadow: 0 0 0 4vh black;
 }
 .ring4{
 	position: absolute;
-	bottom: -5.3vh;
+	bottom: -2.8vh;
 	left: -14.8vh;
 	background: transparent;
-	height: 62.6vh;
-	width: 62.6vh;
-	border-radius: 31.3vh;
+	height: 59.6vh;
+	width: 59.6vh;
+	border-radius: 29.8vh;
 }
 .ring4:before{
     content:'';
     position:absolute;
-	height: 62.6vh;
-	width: 62.6vh;
-	border-radius: 31.3vh;
+	height: 59.6vh;
+	width: 59.6vh;
+	border-radius: 29.8vh;
     box-shadow: 0 0 0 8vh black;
 }
 .ring5{
 	position: absolute;
-	bottom: -13.5vh;
+	bottom: -11vh;
 	left: -23vh;
 	background: transparent;
-	height: 79vh;
-	width: 79vh;
-	border-radius: 39.5vh;
+	height: 76vh;
+	width: 76vh;
+	border-radius: 38vh;
 }
 .ring5:before{
     content:'';
     position:absolute;
-	height: 79vh;
-	width: 79vh;
-	border-radius: 39.5vh;
+	height: 76vh;
+	width: 76vh;
+	border-radius: 38vh;
     box-shadow: 0 0 0 16vh black;
 }
 .ring6{
 	position: absolute;
-	bottom: -29.7vh;
+	bottom: -27.2vh;
 	left: -39.2vh;
 	background: transparent;
-	height: 111.4vh;
-	width: 111.4vh;
-	border-radius: 55.7vh;
+	height: 108.4vh;
+	width: 108.4vh;
+	border-radius: 54.2vh;
 }
 .ring6:before{
     content:'';
     position:absolute;
-	height: 111.4vh;
-	width: 111.4vh;
-	border-radius: 55.7vh;
+	height: 108.4vh;
+	width: 108.4vh;
+	border-radius: 54.2vh;
     box-shadow: 0 0 0 32vh black;
 }
 .ring7{
 	position: absolute;
-	bottom: -61.9vh;
+	bottom: -59.4vh;
 	left: -71.4vh;
 	background: transparent;
-	height: 175.8vh;
-	width: 175.8vh;
-	border-radius: 87.9vh;
+	height: 172.8vh;
+	width: 172.8vh;
+	border-radius: 86.4vh;
 }
 .ring7:before{
     content:'';
     position:absolute;
-	height: 175.8vh;
-	width: 175.8vh;
-	border-radius: 87.9vh;
+	height: 172.8vh;
+	width: 172.8vh;
+	border-radius: 86.4vh;
     box-shadow: 0 0 0 10vh black;
+}
+.mask1{
+	z-index: 100;
+	position: absolute;
+	top: 0vh;
+	left: 0vh;
+	background: transparent;
+	height: 100vh;
+	width: 70vh;
+	border: 1px;
+}
+.mask1:before{
+	z-index: 100;
+    content:'';
+    position:absolute;
+	height: 100vh;
+	width: 68vh;
+	border: 1px;
+    box-shadow: 0 0 0 100vh white;
 }
