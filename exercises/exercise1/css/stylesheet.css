@@ -7,9 +7,18 @@ body{
 	height: 100vh;
 	width: 68vh;
 	background-color: rgb(230, 231, 233);
-	border: 1px solid rgb(230, 231, 233);
-	padding: 1px;
+	border: 0 solid rgb(230, 231, 233);
+	padding: 0;
 	margin: 2vh auto 3vh auto;
+}
+.poster:before{
+	z-index: 100;
+    content:'';
+    position:absolute;
+	height: 100vh;
+	width: 68vh;
+	border: 0;
+    box-shadow: 0 0 0 100vh white;
 }
 h1{
 	position: absolute;
@@ -43,139 +52,151 @@ dd {
 }
 .ring1{
 	position: absolute;
-	bottom: 4.8vh;
-	left: -7.2vh;
+	bottom: 5.8vh;
+	left: -4.2vh;
 	background: transparent;
-    width:44.4vh;
-    height:44.4vh;
-    border-radius:22.2vh;
+    width:42.4vh;
+    height:42.4vh;
+    border-radius:21.2vh;
 }
 .ring1:before{
     content:'';
     position:absolute;
-    width:44.4vh;
-    height:44.4vh;
-    border-radius:22.2vh;
+    width:42.4vh;
+    height:42.4vh;
+    border-radius:21.2vh;
     box-shadow: 0 0 0 1vh black;
 }
 .ring2{
 	position: absolute;
-	bottom: 3.6vh;
-	left: -8.4vh;
+	bottom: 4.6vh;
+	left: -5.4vh;
 	background: transparent;
-	height: 46.8vh;
-	width: 46.8vh;
-	border-radius: 23.4vh;
+	height: 44.8vh;
+	width: 44.8vh;
+	border-radius: 22.4vh;
 }
 .ring2:before{
     content:'';
     position:absolute;
-	height: 46.8vh;
-	width: 46.8vh;
-	border-radius: 23.4vh;
+	height: 44.8vh;
+	width: 44.8vh;
+	border-radius: 22.4vh;
     box-shadow: 0 0 0 2vh black;
 }
 .ring3{
 	position: absolute;
-	bottom: 1.4vh;
-	left: -10.6vh;
+	bottom: 2.4vh;
+	left: -7.6vh;
 	background: transparent;
-	height: 51.2vh;
-	width: 51.2vh;
-	border-radius: 25.6vh;
+	height: 49.2vh;
+	width: 49.2vh;
+	border-radius: 24.6vh;
 }
 .ring3:before{
     content:'';
     position:absolute;
-	height: 51.2vh;
-	width: 51.2vh;
-	border-radius: 25.6vh;
+	height: 49.2vh;
+	width: 49.2vh;
+	border-radius: 24.6vh;
     box-shadow: 0 0 0 4vh black;
 }
 .ring4{
 	position: absolute;
-	bottom: -2.8vh;
-	left: -14.8vh;
+	bottom: -1.8vh;
+	left: -11.8vh;
 	background: transparent;
-	height: 59.6vh;
-	width: 59.6vh;
-	border-radius: 29.8vh;
+	height: 57.6vh;
+	width: 57.6vh;
+	border-radius: 28.8vh;
 }
 .ring4:before{
     content:'';
     position:absolute;
-	height: 59.6vh;
-	width: 59.6vh;
-	border-radius: 29.8vh;
+	height: 57.6vh;
+	width: 57.6vh;
+	border-radius: 28.8vh;
     box-shadow: 0 0 0 8vh black;
 }
 .ring5{
 	position: absolute;
-	bottom: -11vh;
-	left: -23vh;
+	bottom: -10vh;
+	left: -20vh;
 	background: transparent;
-	height: 76vh;
-	width: 76vh;
-	border-radius: 38vh;
+	height: 74vh;
+	width: 74vh;
+	border-radius: 37vh;
 }
 .ring5:before{
     content:'';
     position:absolute;
-	height: 76vh;
-	width: 76vh;
-	border-radius: 38vh;
+	height: 74vh;
+	width: 74vh;
+	border-radius: 37vh;
     box-shadow: 0 0 0 16vh black;
 }
 .ring6{
 	position: absolute;
-	bottom: -27.2vh;
-	left: -39.2vh;
+	bottom: -26.2vh;
+	left: -36.2vh;
 	background: transparent;
-	height: 108.4vh;
-	width: 108.4vh;
-	border-radius: 54.2vh;
+	height: 106.4vh;
+	width: 106.4vh;
+	border-radius: 53.2vh;
 }
 .ring6:before{
     content:'';
     position:absolute;
-	height: 108.4vh;
-	width: 108.4vh;
-	border-radius: 54.2vh;
+	height: 106.4vh;
+	width: 106.4vh;
+	border-radius: 53.2vh;
     box-shadow: 0 0 0 32vh black;
 }
 .ring7{
 	position: absolute;
-	bottom: -59.4vh;
-	left: -71.4vh;
+	bottom: -58.4vh;
+	left: -68.4vh;
 	background: transparent;
-	height: 172.8vh;
-	width: 172.8vh;
-	border-radius: 86.4vh;
+	height: 170.8vh;
+	width: 170.8vh;
+	border-radius: 85.4vh;
 }
 .ring7:before{
     content:'';
     position:absolute;
-	height: 172.8vh;
-	width: 172.8vh;
-	border-radius: 86.4vh;
+	height: 170.8vh;
+	width: 170.8vh;
+	border-radius: 85.4vh;
     box-shadow: 0 0 0 10vh black;
 }
-.mask1{
-	z-index: 100;
-	position: absolute;
-	top: 0vh;
-	left: 0vh;
-	background: transparent;
-	height: 100vh;
-	width: 70vh;
-	border: 1px;
+
+.circle {
+  position: absolute;
+bottom: 5.8vh;
+/*
+	left: -4.2vh;
+ */
+  padding: 0;
+
+    width:42.4vh;
+    height:42.4vh;
+  border-radius: 21.2vh;
+  list-style: none;
+  overflow: hidden;
 }
-.mask1:before{
-	z-index: 100;
-    content:'';
-    position:absolute;
-	height: 100vh;
-	width: 68vh;
-	border: 1px;
-    box-shadow: 0 0 0 100vh white;
+li {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
 }
+
+li:first-child {
+  transform: rotate(0deg) skewY(-60deg);
+background: green;
+
+
+
