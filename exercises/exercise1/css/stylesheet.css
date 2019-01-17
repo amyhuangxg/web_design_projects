@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700');
 body{
 	font-family: 'Nunito Sans', sans-serif;
+	background-color: rgb(230, 231, 233);
 }
 .poster{
 	position: relative;
 	height: 100vh;
 	width: 68vh;
-	background-color: rgb(230, 231, 233);
-	border: 0 solid rgb(230, 231, 233);
 	padding: 0;
 	margin: 2vh auto 3vh auto;
 }
@@ -17,8 +16,7 @@ body{
     position:absolute;
 	height: 100vh;
 	width: 68vh;
-	border: 0;
-    box-shadow: 0 0 0 100vh white;
+    box-shadow: 0 0 0 1000vh white;
 }
 h1{
 	position: absolute;
@@ -50,6 +48,7 @@ dd {
 .first{
 	padding: 0.5vh 0 0 0;
 }
+/* 
 .ring1{
 	position: absolute;
 	bottom: 5.8vh;
@@ -66,6 +65,62 @@ dd {
     height:42.4vh;
     border-radius:21.2vh;
     box-shadow: 0 0 0 1vh black;
+    overflow: hidden;
+}
+ */
+.circle1o {
+	position: absolute;
+	top: 50.8vh;
+	left: -5.2vh;
+  	padding: 0vh;
+    width: 44.4vh;
+    height: 44.4vh;
+	border-radius: 22.2vh;
+  	overflow: hidden;
+}
+.c1o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c1o:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: blue;
+}
+.c1o:nth-child(2) {
+transform: rotate(90deg) skewY(-60deg);
+background: blue;
+}
+.circle1i {
+	position: absolute;
+	top: 51.8vh;
+	left: -4.2vh;
+  	padding: 0vh;
+    width: 42.4vh;
+    height: 42.4vh;
+	border-radius: 21.2vh;
+  	overflow: hidden;
+}
+.c1i {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c1i:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: green;
+}
+.c1i:nth-child(2) {
+transform: rotate(90deg) skewY(-60deg);
+background: green;
 }
 .ring2{
 	position: absolute;
@@ -170,33 +225,6 @@ dd {
     box-shadow: 0 0 0 10vh black;
 }
 
-.circle {
-  position: absolute;
-bottom: 5.8vh;
-/*
-	left: -4.2vh;
- */
-  padding: 0;
-
-    width:42.4vh;
-    height:42.4vh;
-  border-radius: 21.2vh;
-  list-style: none;
-  overflow: hidden;
-}
-li {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 50%;
-  transform-origin: 0% 100%;
-}
-
-li:first-child {
-  transform: rotate(0deg) skewY(-60deg);
-background: green;
 
 
 
