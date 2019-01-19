@@ -19,6 +19,7 @@ body{
     box-shadow: 0 0 0 1000vh white;
 }
 h1{
+	z-index: 90;
 	position: absolute;
 	top: 63vh;
     float: left;
@@ -29,6 +30,7 @@ h1{
 	letter-spacing: -0.1vh;
 }
 dl{
+	z-index: 90;
 	position: absolute;
 	top: 72vh;
 	font-size: 1.1vh;
@@ -69,6 +71,7 @@ dd {
 }
  */
 .circle1o {
+	z-index: 80;
 	position: absolute;
 	top: 50.8vh;
 	left: -5.2vh;
@@ -96,6 +99,7 @@ transform: rotate(90deg) skewY(-60deg);
 background: blue;
 }
 .circle1i {
+	z-index: 85;
 	position: absolute;
 	top: 51.8vh;
 	left: -4.2vh;
@@ -122,6 +126,7 @@ background: green;
 transform: rotate(90deg) skewY(-60deg);
 background: green;
 }
+/* 
 .ring2{
 	position: absolute;
 	bottom: 4.6vh;
@@ -139,6 +144,64 @@ background: green;
 	border-radius: 22.4vh;
     box-shadow: 0 0 0 2vh black;
 }
+ */
+.circle2o {
+	z-index: 70;
+	position: absolute;
+	top: 48.6vh;
+	left: -7.4vh;
+  	padding: 0vh;
+	height: 48.8vh;
+	width: 48.8vh;
+	border-radius: 24.4vh;
+  	overflow: hidden;
+}
+.c2o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c2o:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: blue;
+}
+.c2o:nth-child(2) {
+transform: rotate(90deg) skewY(-60deg);
+background: blue;
+}
+.circle2i {
+	z-index: 75;
+	position: absolute;
+	top: 50.6vh;
+	left: -5.4vh;
+  	padding: 0vh;
+	height: 44.8vh;
+	width: 44.8vh;
+	border-radius: 22.4vh;
+  	overflow: hidden;
+}
+.c2i {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c2i:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: green;
+}
+.c2i:nth-child(2) {
+transform: rotate(90deg) skewY(-60deg);
+background: green;
+}
+/* 
 .ring3{
 	position: absolute;
 	bottom: 2.4vh;
@@ -156,6 +219,64 @@ background: green;
 	border-radius: 24.6vh;
     box-shadow: 0 0 0 4vh black;
 }
+ */
+.circle3o {
+	z-index: 60;
+	position: absolute;
+	top: 44.4vh;
+	left: -11.6vh;
+  	padding: 0vh;
+	height: 57.2vh;
+	width: 57.2vh;
+	border-radius: 28.6vh;
+  	overflow: hidden;
+}
+.c3o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c3o:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: blue;
+}
+.c3o:nth-child(2) {
+transform: rotate(90deg) skewY(-60deg);
+background: blue;
+}
+.circle3i {
+	z-index: 65;
+	position: absolute;
+	top: 48.4vh;
+	left: -7.6vh;
+  	padding: 0vh;
+	height: 49.2vh;
+	width: 49.2vh;
+	border-radius: 24.6vh;
+  	overflow: hidden;
+}
+.c3i {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c3i:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: green;
+}
+.c3i:nth-child(2) {
+transform: rotate(90deg) skewY(-60deg);
+background: green;
+}
+/* 
 .ring4{
 	position: absolute;
 	bottom: -1.8vh;
@@ -173,6 +294,56 @@ background: green;
 	border-radius: 28.8vh;
     box-shadow: 0 0 0 8vh black;
 }
+ */
+.circle4o {
+	z-index: 50;
+	position: absolute;
+	top: 36.2vh;
+	left: -19.8vh;
+  	padding: 0vh;
+	height: 73.6vh;
+	width: 73.6vh;
+	border-radius: 36.8vh;
+  	overflow: hidden;
+}
+.c4o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c4o:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: blue;
+}
+.circle4i {
+	z-index: 55;
+	position: absolute;
+	top: 44.2vh;
+	left: -11.8vh;
+  	padding: 0vh;
+	height: 57.6vh;
+	width: 57.6vh;
+	border-radius: 28.8vh;
+  	overflow: hidden;
+}
+.c4i {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c4i:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: green;
+}
+/* 
 .ring5{
 	position: absolute;
 	bottom: -10vh;
@@ -190,6 +361,56 @@ background: green;
 	border-radius: 37vh;
     box-shadow: 0 0 0 16vh black;
 }
+ */
+.circle5o {
+	z-index: 40;
+	position: absolute;
+	top: 20vh;
+	left: -36vh;
+  	padding: 0vh;
+	height: 106vh;
+	width: 106vh;
+	border-radius: 53vh;
+  	overflow: hidden;
+}
+.c5o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c5o:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: blue;
+}
+.circle5i {
+	z-index: 45;
+	position: absolute;
+	top: 36vh;
+	left: -20vh;
+  	padding: 0vh;
+	height: 74vh;
+	width: 74vh;
+	border-radius: 37vh;
+  	overflow: hidden;
+}
+.c5i {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c5i:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: green;
+}
+/* 
 .ring6{
 	position: absolute;
 	bottom: -26.2vh;
@@ -207,6 +428,55 @@ background: green;
 	border-radius: 53.2vh;
     box-shadow: 0 0 0 32vh black;
 }
+ */
+.circle6o {
+	z-index: 30;
+	position: absolute;
+	top: -12.2vh;
+	left: -68.2vh;
+  	padding: 0vh;
+	height: 170.4vh;
+	width: 170.4vh;
+	border-radius: 85.2vh;
+  	overflow: hidden;
+}
+.c6o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c6o:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: blue;
+}
+.circle6i {
+	z-index: 35;
+	position: absolute;
+	top: 19.8vh;
+	left: -36.2vh;
+  	padding: 0vh;
+	height: 106.4vh;
+	width: 106.4vh;
+	border-radius: 53.2vh;
+  	overflow: hidden;
+}
+.c6i {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c6i:first-child {
+transform: rotate(0deg) skewY(-60deg);
+background: green;
+}
 .ring7{
 	position: absolute;
 	bottom: -58.4vh;
@@ -216,6 +486,7 @@ background: green;
 	width: 170.8vh;
 	border-radius: 85.4vh;
 }
+/* 
 .ring7:before{
     content:'';
     position:absolute;
@@ -223,6 +494,55 @@ background: green;
 	width: 170.8vh;
 	border-radius: 85.4vh;
     box-shadow: 0 0 0 10vh black;
+}
+.circle7o {
+	z-index: 20;
+	position: absolute;
+	top: -76.4vh;
+	left: -132.4vh;
+  	padding: 0vh;
+	height: 298.8vh;
+	width: 298.8vh;
+	border-radius: 149.4vh;
+  	overflow: hidden;
+}
+ */
+.c7o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c7o:first-child {
+transform: rotate(45deg) skewY(-60deg);
+background: blue;
+}
+.circle7i {
+	z-index: 25;
+	position: absolute;
+	top: -12.4vh;
+	left: -68.4vh;
+  	padding: 0vh;
+	height: 170.8vh;
+	width: 170.8vh;
+	border-radius: 85.4vh;
+  	overflow: hidden;
+}
+.c7i {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c7i:first-child {
+transform: rotate(45deg) skewY(-60deg);
+background: green;
 }
 
 
