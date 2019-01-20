@@ -199,6 +199,8 @@ transform: rotate(0deg) skewY(0deg);
 background: black;
 }
 .c4o:nth-child(2) {
+height: 50%;
+transform-origin: 0% 100%;
 transform: rotate(180deg) skewY(0deg);
 background: black;
 }
