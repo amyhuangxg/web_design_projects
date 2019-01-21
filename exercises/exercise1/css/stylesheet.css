@@ -18,6 +18,7 @@ body{
 	width: 68vh;
     box-shadow: 0 0 0 1000vh white;
 }
+/* TEXT*/
 h1{
 	z-index: 90;
 	position: absolute;
@@ -50,6 +51,7 @@ dd {
 .first{
 	padding: 0.5vh 0 0 0;
 }
+/* GRAPHICS */
 .ring1{
 	z-index: 87;
 	position: absolute;
@@ -81,12 +83,14 @@ dd {
  	transform-origin: 0% 100%;
 }
 .c1o:first-child {
-transform: rotate(67.5deg) skewY(-33.75deg);
-background: black;
+	transform: rotate(67.5deg) skewY(-33.75deg);
+	background: black;
+	animation: spin2 4s linear 1s infinite;
 }
 .c1o:nth-child(2) {
-transform: rotate(225deg) skewY(-33.75deg);
-background: black;
+	transform: rotate(225deg) skewY(-33.75deg);
+	background: black;
+	animation: spin1 4s linear 1s infinite;
 }
 .ring2{
 	z-index: 77;
@@ -119,12 +123,14 @@ background: black;
  	transform-origin: 0% 100%;
 }
 .c2o:first-child {
-transform: rotate(45deg) skewY(-22.5deg);
-background: black;
+	transform: rotate(45deg) skewY(-22.5deg);
+	background: black;
+	animation: spin1 2s linear 1s infinite;
 }
 .c2o:nth-child(2) {
-transform: rotate(180deg) skewY(-22.5deg);
-background: black;
+	transform: rotate(180deg) skewY(-22.5deg);
+	background: black;
+	animation: spin1 8s linear 1s infinite;
 }
 .ring3{
 	z-index: 67;
@@ -157,12 +163,14 @@ background: black;
  	transform-origin: 0% 100%;
 }
 .c3o:first-child {
-transform: rotate(11.25deg) skewY(-11.25deg);
-background: black;
+	transform: rotate(11.25deg) skewY(-11.25deg);
+	background: black;
+	animation: spin1 6s linear 1s infinite;
 }
 .c3o:nth-child(2) {
-transform: rotate(135deg) skewY(0deg);
-background: black;
+	transform: rotate(135deg) skewY(0deg);
+	background: black;
+	animation: spin2 5s linear 1s infinite;
 }
 .ring4{
 	z-index: 57;
@@ -195,14 +203,16 @@ background: black;
  	transform-origin: 0% 50%;
 }
 .c4o:first-child {
-transform: rotate(0deg) skewY(0deg);
-background: black;
+	transform: rotate(0deg) skewY(0deg);
+	background: black;
+	animation: spin2 7s linear 1s infinite;
 }
 .c4o:nth-child(2) {
-height: 50%;
-transform-origin: 0% 100%;
-transform: rotate(180deg) skewY(0deg);
-background: black;
+	height: 50%;
+	transform-origin: 0% 100%;
+	transform: rotate(180deg) skewY(0deg);
+	background: black;
+	animation: spin2 7s linear 1s infinite;
 }
 .ring5{
 	z-index: 47;
@@ -233,10 +243,11 @@ background: black;
   	width: 50%;
   	height: 100%;
  	transform-origin: 0% 50%;
+ 	animation: spin1 8s linear 1s infinite;
 }
 .c5o:first-child {
-transform: rotate(45deg) skewY(0deg);
-background: black;
+	transform: rotate(45deg) skewY(0deg);
+	background: black;
 }
 .ring6{
 	z-index: 37;
@@ -269,8 +280,9 @@ background: black;
  	transform-origin: 0% 50%;
 }
 .c6o:first-child {
-transform: rotate(-11.25deg) skewY(0deg);
-background: black;
+	transform: rotate(-11.25deg) skewY(0deg);
+	background: black;
+	animation: spin1 3s linear 1s infinite;
 }
 .ring7{
 	z-index: 27;
@@ -303,10 +315,19 @@ background: black;
  	transform-origin: 0% 100%;
 }
 .c7o:first-child {
-transform: rotate(0deg) skewY(0deg);
-background: black;
+	transform: rotate(0deg) skewY(0deg);
+	background: black;
+	animation: spin2 5s linear 1s infinite;
 }
-
+/* ANIMATION */
+@keyframes spin1 {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+@keyframes spin2 {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(-360deg);}
+}
 
 
 
