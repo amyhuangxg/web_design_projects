@@ -1,0 +1,675 @@
+/* GLOBAL*/
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+body{
+	font-family: 'Staatliches', cursive;
+	font-style: italic;
+}
+.frame{
+	position: relative;
+	width:100vw;
+	height:100vh;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+/* TEXT */
+h1{
+	font-size: 6vw;
+}
+h2{
+	font-size: 4vw;
+}
+h3{
+	font-size: 2vw;
+}
+p{
+	font-size: 1vw;
+}
+/* GRAPHICS */
+.arrow{
+	background: black;
+	margin: 0.5vh 0.5vw;
+}
+.arrow.right{
+	clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+	transform: skew(-20deg);
+}
+.arrow.left{
+	clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+	transform: skew(-20deg);
+}
+.arrow.up{
+	clip-path: polygon(50% 0, 100% 40%, 80% 40%, 80% 100%, 20% 100%, 20% 40%, 0 40%);
+	transform: skew(-20deg);
+}
+.arrow.down{
+	clip-path: polygon(20% 0, 80% 0, 80% 60%, 100% 60%, 50% 100%, 0 60%, 20% 60%);
+	transform: skew(-20deg);
+}
+.box{
+	width: 5vw;
+	height: 5vw;
+	background-color: black;
+	transform: skew(-20deg);
+}
+.i{
+	background-color: white;
+	color: white;
+}
+.i:hover{
+	background-color: black;
+	color: black;
+}
+[class*="page7BL"]>.box{
+	width: 5%;
+	height: 7.5%;
+}
+/* Home Page */
+.arrows.indexT1{
+	position: absolute;
+	margin: 30vh 0 0 30vw;
+}
+.indexA1{
+	position: absolute;
+	top:50vh;
+	left:50vw;
+	width: 18vw;
+	height:6vw;
+}
+/* Page 1 */
+.page1A1{
+	position: absolute;
+	top:40vh;
+	left: 5vw;
+	width:18vw;
+	height: 6vw;
+}
+.page1A2{
+	position: absolute;
+	top:40vh;
+	right: 5vw;
+	width:18vw;
+	height: 6vw;
+}
+.page1T1{
+	display: block;
+	position: absolute;
+	top: 36vh;
+	left: 25vw;
+}
+.page1T2{
+	display: block;
+	position:absolute;
+	top: 36vh;
+	left: 62vw;
+}
+/* Page 2 */
+.page2A1{
+	display: block;
+	position: absolute;
+	top:25vh;
+	left: 40vw;
+	width: 20vw;
+	height: 20vw;
+}
+.page2T1{
+	display: block;
+	position: absolute;
+	top:60vh;
+	left: 35vw;
+}
+/* Page 3 */
+.page3T1{
+	display: block;
+	position: absolute;
+	text-align: center;
+	top: 10vh;
+	margin: 0 20vw;
+}
+.page3A1{
+	position: absolute;
+	top:35vh;
+	left:47.5vw;
+	width:4vw;
+	height: 12vw;
+}
+.page3A2{
+	position: absolute;
+	top: 55vh;
+	left: 50vw;
+	width:12vw;
+	height: 4vw;
+}
+.page3A3{
+	position: absolute;
+	top: 55vh;
+	right: 55vw;
+	width:12vw;
+	height: 4vw;
+}
+.page3A4{
+	position: absolute;
+	top: 60vh;
+	left: 42.5vw;
+	width:4vw;
+	height: 12vw;
+}
+.page3A5{
+	position: absolute;
+	top:80vh;
+	right:5vw;
+	width:12vw;
+	height: 4vw;
+}
+.page3T2{
+	display: block;
+	position: absolute;
+	top: 78.5vh;
+	right: 20vw;
+}
+/* Page 4 */
+.page4T1{
+	display: block;
+	position: absolute;
+	top:45vh;
+	left: 5vw;
+}
+.page4A1{
+	display: block;
+	position: absolute;
+	top:20vh;
+	left:12vw;
+	width:6vw;
+	height: 18vw;
+}
+.page4A2{
+	display: block;
+	position: absolute;
+	top:5vh;
+	left:15vw;
+	width:24vw;
+	height: 8vw;
+}
+.page4A3{
+	display: block;
+	position: absolute;
+	top:5vh;
+	left:35vw;
+	width:12vw;
+	height: 36vw;
+}
+.page4A4{
+	display: block;
+	position: absolute;
+	top:65vh;
+	left:25vw;
+	width:42vw;
+	height: 14vw;
+}
+.page4A5{
+	display: block;
+	position: absolute;
+	top:18vh;
+	left:75vw;
+	width: 14vw;
+	height: 42vw;
+}
+.page4B1{
+	display: block;
+	position: absolute;
+	top:5vh;
+	right:6vw;
+}
+.page4B2{
+	display: block;
+	position: absolute;
+	top:72.5vh;
+	left:5vw;
+}
+.page4B3{
+	display: block;
+	position: absolute;
+	top:30vh;
+	right:30vw;
+}
+.page4B4{
+	display: block;
+	position: absolute;
+	top:5vh;
+	right:25vw;
+}
+/* Page 5 */
+.page5A1{
+	position: absolute;
+	top:40vh;
+	left: 5vw;
+	width:18vw;
+	height: 6vw;
+}
+.page5A2{
+	position: absolute;
+	top:40vh;
+	right: 5vw;
+	width:18vw;
+	height: 6vw;
+}
+.page5T1{
+	display: block;
+	position: absolute;
+	top: 36vh;
+	left: 25vw;
+}
+.page5T2{
+	display: block;
+	position:absolute;
+	top: 36vh;
+	left: 62vw;
+}
+/* Page 6 */
+.page6B1{
+	display: block;
+	position: absolute;
+	top: 10vh;
+	left: 30vw;
+}
+.page6B2{
+	display: block;
+	position: absolute;
+	top: 10vh;
+	left: 50vw;
+}
+.page6B3{
+	display: block;
+	position: absolute;
+	top: 10vh;
+	left: 70vw;
+}
+.page6A1{
+	display: block;
+	position: absolute;
+	top:25vh;
+	left:45vw;
+	width: 6vw;
+	height: 18vw;
+}
+.page6T1{
+	display: block;
+	position: absolute;
+	top: 55vh;
+	left: 32.5vw;
+}
+/* Page 7 */
+.page7T1{
+	display: block;
+	position: absolute;
+	text-align: center;
+	top: 10%;
+	margin: 0 30%;
+}
+[class*="page7BL"]{
+	width: 15%;
+	height: 15%;
+	display: block;
+	position: absolute;
+	top:60%;
+	border: solid 0.1vw black;
+}
+.page7BL1{
+	left: 4%;
+}
+.page7BL2{
+	left: 23%;
+}
+.page7BL3{
+	left: 42%;
+}
+.page7BL4{
+	left: 61%;
+}
+.page7BL5{
+	left: 80%;
+}
+[class*="page7A"].s{
+	display: block;
+	position: absolute;
+	top:65%;
+	width: 6%;
+	height: 4%;
+}
+.page7A1{
+	left:18%;
+}
+[class*="page7BL"]>.page7A5{
+	background-color: red;
+}
+.page7A2{
+	left:37%;
+}
+.page7A3{
+	left:56%;
+}
+.page7A4{
+	left:75%;
+}
+[class*="page7A"].n{
+	display: block;
+	position: absolute;
+	right:5%;
+	width: 12%;
+	height: 8%;
+}
+.page7A5{
+	top:5%;
+}
+.page7A6{
+	top:20%;
+}
+.page7A7{
+	top:35%;
+}
+/* Page 8 */
+.page8B1{
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+.page8B2{
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+}
+.page8B3{
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 70%;
+}
+[class*="page7BL"]>.page8B3{
+	background-color: red;
+}
+.page8A1{
+	display: block;
+	position: absolute;
+	top:25%;
+	left:45%;
+	width: 6%;
+	height: 18vw;
+}
+[class*="page7BL"]>.page8A1{
+	height: 28%;
+}
+.page8T1{
+	display: block;
+	position: absolute;
+	top: 55%;
+	left: 32.5%;
+}
+/* Page 9 */
+.page9T1{
+	display: block;
+	position: absolute;
+	top: 15%;
+	left: 65%;
+}
+.page9A1{
+	display: block;
+	position: absolute;
+	top:25%;
+	left:65%;
+	width: 4%;
+	height: 12vw;
+}
+[class*="page7BL"]>.page9A1{
+	height: 20%;
+}
+.page9A2{
+	display: block;
+	position: absolute;
+	top:45%;
+	left:20%;
+	width: 30%;
+	height: 6vw;
+}
+[class*="page7BL"]>.page9A2{
+	height: 10%;
+}
+.arrow.page9A2:hover{
+	background: black;
+	margin: 0.5vh 0.5vw;
+	padding:0;
+}
+.page9A3{
+	display: block;
+	position: absolute;
+	top:45%;
+	right:20%;
+	width: 30%;
+	height: 6vw;
+}
+[class*="page7BL"]>.page9A3{
+	height: 10%;
+}
+.arrow.page9A3:hover{
+	background: black;
+	margin: 0.5vh 0.5vw;
+	padding:0;
+}
+.page9T2{
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+.page9T3{
+	display: block;
+	position: absolute;
+	top: 40%;
+	right: 10%;
+}
+.page9A4{
+	display: block;
+	position: absolute;
+	top:70%;
+	left:20%;
+	width: 12%;
+	height: 4vw;
+}
+[class*="page7BL"]>.page9A4{
+	height: 8%;
+}
+.page9T4{
+	display: block;
+	position: absolute;
+	top:69%;
+	left:35%;
+}
+.page9A5{
+	display: block;
+	position: absolute;
+	top:80%;
+	right:20%;
+	width: 12%;
+	height: 4vw;
+}
+[class*="page7BL"]>.page9A5{
+	height: 8%;
+	background-color: red;
+}
+.page9T5{
+	display: block;
+	position: absolute;
+	top:78.5%;
+	right:35%;
+}
+/* Page 10 */
+.page10B1{
+	display: block;
+	position: absolute;
+	top: 20%;
+	left: 45%
+}
+#page10landing{
+	display: block;
+	position: absolute;
+	top: 45%;
+}
+.page10T1{
+	display: block;
+	position: absolute;
+	top:65%;
+	left:40%;
+}
+.page10A1{
+	display: block;
+	position: absolute;
+	top:90%;
+	left:42%;
+	width: 6%;
+	height: 18vw;
+}
+[class*="page7BL"]>.page10A1{
+	height: 30%;
+	top:40%;
+	background-color: red;
+}
+.page10B2{
+	display: block;
+	position: absolute;
+	top: 160%;
+	left: 45%;
+	margin-bottom: 25%;
+}
+/* Page 11 */
+.page11T1{
+	display: block;
+	position: absolute;
+	top:38%;
+	left:39%;
+}
+.page11A1{
+	display: block;
+	position: absolute;
+	top:5%;
+	left:50%;
+	width: 6%;
+	height: 18vw;
+}
+[class*="page7BL"]>.page11A1{
+	height: 30%;
+}
+.page11A2{
+	display: block;
+	position: absolute;
+	top:40%;
+	right:20%;
+	width: 18%;
+	height: 6vw;
+}
+[class*="page7BL"]>.page11A2{
+	height: 10%;
+}
+.page11A3{
+	display: block;
+	position: absolute;
+	top:40%;
+	left:18%;
+	width: 18%;
+	height: 6vw;
+}
+[class*="page7BL"]>.page11A3{
+	height: 10%;
+}
+.page11A4{
+	display: block;
+	position: absolute;
+	bottom:12%;
+	right: 52%;
+	width: 6%;
+	height: 18vw;
+}
+[class*="page7BL"]>.page11A4{
+	height: 30%;
+}
+.page11A5{
+	display: block;
+  position: absolute;
+  top:60%;
+  left:5%;
+  width: 6%;
+  height: 18vw;
+}
+[class*="page7BL"]>.page11A5{
+	height: 30%;
+}
+.page11A6{
+	display: block;
+	position: absolute;
+	top:5%;
+	left:5%;
+	width: 18%;
+	height: 6vw;
+}
+[class*="page7BL"]>.page11A5{
+	height: 10%;
+}
+.page11A7{
+	display: block;
+	position: absolute;
+	bottom:10%;
+	right:5%;
+	width: 18%;
+	height: 6vw;
+}
+[class*="page7BL"]>.page11A7{
+	height: 10%;
+}
+.page11A8{
+	display: block;
+	position: absolute;
+	top:5%;
+	right: 7%;
+	width: 6%;
+	height: 18vw;
+}
+[class*="page7BL"]>.page11A8{
+	height: 30%;
+}
+.page11B1{
+	display: block;
+	position: absolute;
+	top: 70%;
+	right: 30%;
+}
+/* Page 12 */
+.page12A1{
+	display: block;
+	position: absolute;
+	top: 5vh;
+	left: 5vw;
+	width: 18vw;
+	height: 6vw;
+}
+.page12T1{
+	display: block;
+	position: absolute;
+	top:35vh;
+	left:40vw;
+}
+.page12T2{
+	display: block;
+	position: absolute;
+	bottom:10vh;
+	right: 10vw;
+}
+.page12T2:hover{
+	background-color: white;
+}
+/* AFTER GLOBAL */
+.arrow:hover{
+	background: red;
+	margin:0;
+	padding: 0.5vh 0.5vw;
+}

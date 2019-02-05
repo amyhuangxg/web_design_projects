@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="A website that lets you compare the weather between two completely different places around the world.">
+		<link href="../css/stylesheet.css" rel="stylesheet">
+  <head>
+  <body>
+<!--global-->
+    <div id=top></div>
+    <a class=homeButton href="index.html"><div class=roundButton><div class=homeIcon></div></div></a>
+    <a class=topButton href="#top"><div class=roundButton><div class="bigTriangleArrow up"></div></div></a>
+    <a class=bottomButton href="#bottom"><div class=roundButton><div class="bigTriangleArrow"></div></div></a>
+    <a class=firstButton href="index.html"><div class=roundButton><div class=buttonText>Sort by Week</div></div></a>
+    <a class=secondButton href="index.html"><div class=roundButton><div class=buttonText>Sort by Month</div></div></a>
+    <a class=thirdButton href="index.html"><div class=roundButton><div class=buttonText>Calendar View</div></div></a>
+    <a class=fourthButton href="index.html"><div class=roundButton><div class=buttonText>Change Places</div></div></a>
+<!--content-->
+		<h1 class=page>Polar Opposites</h1>
+    <h2>Curious about what's going on on the other side of the world?</h2>
+    <a class="arrowButton dayPage up" href="error.html">
+			<div class="triangleArrow dayPage up"></div>
+      next day
+		</a>
+  <!--swap for more general-->
+    <div class=main>
+      <h3 class=today>Today, <div class=month></div> <div class=date></div><br><div class=dayofweek></div></h3>
+      <div class="infoBlock dayPage main">
+        <h4>Current</h4>
+        <!--get FC convert-->
+        <dl class=first>
+          <dt>Weather:</dt>
+            <dd><div class=weather></div></dd>
+          <dt>High:</dt>
+            <dd><div class=high></div>&degF</dd>
+          <dt>Low:</dt>
+            <dd><div class=low></div>&degF</dd>
+        </dl>
+        <dl class=second>
+          <dt>Weather:</dt>
+            <dd><div class=weather></div></dd>
+          <dt>High:</dt>
+            <dd><div class=high></div>&degF</dd>
+          <dt>Low:</dt>
+            <dd><div class=low></div>&degF</dd>
+        </dl>
+      </div>
+      <div class="location first">North Pole, Alaska, USA</div>
+      <div class="location second">Antarctica (general data)</div>
+			<div class="imgFirst"></div>
+			<div class="iconFirst"></div>
+			<div class="imgSecond"></div>
+			<div class="iconSecond"></div>
+    </div>
+		<div class="notice todayAPI">
+			<p>The above information is for current weather data. As of now, we are unable to access historical or forecast weather data. Hence, our site is currently restricted to data we manually entered from January 2018. Please check out our daily data from January 27 to 29, our weekly data from January 27 to February 2, and our monthly data for all of January.</p>
+			<a class="arrowButton takeMeBack" href=2018_01_28.html>Take me back in time</a>
+		</div>
+		<div class="notice timezones today">
+			<p>The times below display data for the listed times and displayed date in the timezone of each location for better comparison.</p>
+		</div>
+		<div class=todayRest>
+	    <div class="rest">
+	      <div class=body1>
+	        <div class="infoBlock dayPage">
+	          <h4>12AM</h4>
+	          <!--get FC convert-->
+	          <dl class=first>
+	            <dt>Weather:</dt>
+	              <dd>No data</dd>
+	            <dt>High:</dt>
+	              <dd>N/A</dd>
+	            <dt>Low:</dt>
+	              <dd>N/A</dd>
+	          </dl>
+	          <dl class=second>
+	            <dt>Weather:</dt>
+	              <dd>No data</dd>
+	            <dt>High:</dt>
+	              <dd>N/A</dd>
+	           <dt>Low:</dt>
+	            <dd>N/A</dd>
+	          </dl>
+	        </div>
+	        <img class="dayPage icon first" src="../assets/question_mark.svgz">
+	        <img class="dayPage icon second" src="../assets/question_mark.svgz">
+			    <div class="sprite_polar_bear_happy day1"></div>
+	        <div class="sprite_penguin_happy day2"></div>
+	      </div>
+	      <div class=body2>
+	        <div class="infoBlock dayPage">
+	          <h4>6AM</h4>
+	          <!--get FC convert-->
+	          <dl class=first>
+	            <dt>Weather:</dt>
+	              <dd>No data</dd>
+	            <dt>High:</dt>
+	              <dd>N/A</dd>
+	            <dt>Low:</dt>
+	              <dd>N/A</dd>
+	          </dl>
+	          <dl class=second>
+	            <dt>Weather:</dt>
+	              <dd>No data</dd>
+	            <dt>High:</dt>
+	              <dd>N/A</dd>
+	           <dt>Low:</dt>
+	            <dd>N/A</dd>
+	          </dl>
+	        </div>
+	        <img class="dayPage icon first" src="../assets/question_mark.svgz">
+	        <img class="dayPage icon second" src="../assets/question_mark.svgz">
+	        <div class="sprite_polar_bear_happy day1"></div>
+	        <div class="sprite_penguin_happy day2"></div>
+	      </div>
+	      <div class=body3>
+	        <div class="infoBlock dayPage">
+	          <h4>12PM</h4>
+	          <!--get FC convert-->
+	          <dl class=first>
+	            <dt>Weather:</dt>
+	              <dd>No data</dd>
+	            <dt>High:</dt>
+	              <dd>N/A</dd>
+	            <dt>Low:</dt>
+	              <dd>N/A</dd>
+	          </dl>
+	          <dl class=second>
+	            <dt>Weather:</dt>
+	              <dd>No data</dd>
+	            <dt>High:</dt>
+	              <dd>N/A</dd>
+	           <dt>Low:</dt>
+	            <dd>N/A</dd>
+	          </dl>
+	        </div>
+	        <img class="dayPage icon first" src="../assets/question_mark.svgz">
+	        <img class="dayPage icon second" src="../assets/question_mark.svgz">
+	        <div class="sprite_polar_bear_sad day1"></div>
+	        <div class="sprite_penguin_happy day2"></div>
+	      </div>
+	      <div class=body4>
+	        <div class="infoBlock dayPage">
+	          <h4>6PM</h4>
+	          <!--get FC convert-->
+	          <dl class=first>
+	            <dt>Weather:</dt>
+	              <dd>No data</dd>
+	            <dt>High:</dt>
+	              <dd>N/A</dd>
+	            <dt>Low:</dt>
+	              <dd>N/A</dd>
+	          </dl>
+	          <dl class=second>
+	            <dt>Weather:</dt>
+	              <dd>No data</dd>
+	            <dt>High:</dt>
+	              <dd>N/A</dd>
+	           <dt>Low:</dt>
+	            <dd>N/A</dd>
+	          </dl>
+	        </div>
+	        <img class="dayPage icon first" src="../assets/question_mark.svgz">
+	        <img class="dayPage icon second" src="../assets/question_mark.svgz">
+	        <div class="sprite_polar_bear_sad day1"></div>
+	        <div class="sprite_penguin_happy day2"></div>
+	      </div>
+	    </div>
+		</div>
+  <!--swap for more general-->
+    <div class="dayBlock todayRest"></div>
+		<a class="arrowButton dayPage down todayRest" href="error.html">
+			previous day
+			<div class="triangleArrow dayPage down"></div>
+		</a>
+    <a id=bottom></a>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="../js/script.js"></script>
+  </body>
+</html>

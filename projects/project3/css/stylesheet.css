@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+/* GLOBAL */
+body{
+  background-color: #153e75;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.framed{
+  height: 100vh;
+  overflow: hidden;
+}
+.main{
+  display: block;
+}
+/* TEXT */
+.month{
+  display: inline;
+}
+.date{
+  display: inline;
+}
+.dayofweek{
+  display: inline;
+}
+h1.display{
+  font-size: 5.5vw;
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  margin: 20vh 21vw;
+}
+h1.page{
+  font-size: 7vw;
+  font-weight: 700;
+  display:block;
+  position: absolute;
+  margin: 10vh 13.5vw;
+}
+h2{
+  font-size: 2vw;
+  font-weight: 700;
+  color: rgba(237, 227, 170, 0.5);
+  display: block;
+  position: absolute;
+  margin: 25vh 16vw auto 40vw;
+  text-align: right;
+}
+h3{
+  font-size: 2vw;
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  margin-top: 45vh;
+  text-align: center;
+}
+p{
+  font-size: 1.5vw;
+  font-weight: 400;
+  display: block;
+  text-transform: none;
+  text-align: center;
+}
+h3.today{
+  margin-left: 39vw;
+}
+h3.jan27{
+  margin-left: 43vw;
+}
+h3.jan28{
+  margin-left: 43vw;
+}
+h3.jan29{
+  margin-left: 43vw;
+}
+.timezones{
+  position: absolute;
+  margin: 110vh 10vw 0 10vw;
+}
+.timezones.today{
+  position: absolute;
+  margin: 145vh 10vw 0 10vw;
+}
+  /*info block*/
+.infoBlock{
+  display: block;
+  position: absolute;
+  z-index: 500;
+}
+.infoBlock>h4{
+  font-weight: 300;
+  color: rgba(237, 227, 170, 0.5);
+}
+    /*day page*/
+.infoBlock.dayPage{
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin-left: 32vw;
+}
+.infoBlock.dayPage>h4{
+  font-size: 2vw;
+}
+.infoBlock.dayPage>dl>dt{
+  float: left;
+  clear: left;
+}
+.infoBlock.dayPage>dl>dt{
+  width: 10vw;
+  text-align: right;
+}
+.infoBlock.dayPage>dl>dd{
+  margin: 0 0 0 10.5vw;
+  text-align: left;
+}
+.infoBlock.dayPage>dl.second{
+  display: block;
+  position: absolute;
+  margin: 7vh 15vw;
+}
+      /*main*/
+.infoBlock.dayPage.main{
+  margin-top: 50vh;
+}
+.infoBlock.dayPage.main>h4{
+  margin-left: 12.5vw;
+}
+    /*rest*/
+.rest{
+  display: block;
+  position: absolute;
+  margin: 120vh 0 0 0;
+}
+.rest .infoBlock.dayPage>h4{
+  margin-left: 14.5vw;
+}
+.body2{
+  display: block;
+  position: absolute;
+  margin-top: 55vh;
+}
+.body3{
+  display: block;
+  position: absolute;
+  margin-top: 110vh;
+}
+.body4{
+  display: block;
+  position: absolute;
+  margin-top: 165vh;
+}
+/* ANIMATION */
+[class^="sprite"]{
+  z-index: 900;
+}
+  /* polar bear */
+.sprite_polar_bear_happy{
+  display:block;
+  background:transparent url("../assets/polar_bear_happy.svgz") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_polar_bear_happy:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+.sprite_polar_bear_confused{
+  display:block;
+  background:transparent url("../assets/polar_bear_confused.svgz") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_polar_bear_confused:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+.sprite_polar_bear_sad{
+  display:block;
+  background:transparent url("../assets/polar_bear_sad.svgz") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_polar_bear_sad:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+  /* penguin */
+.sprite_penguin_happy{
+  display:block;
+  background:transparent url("../assets/penguin_happy.svgz") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_penguin_happy:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+.sprite_penguin_confused{
+  display:block;
+  background:transparent url("../assets/penguin_confused.svgz") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_penguin_confused:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+.sprite_penguin_sad{
+  display:block;
+  background:transparent url("../assets/penguin_sad.svgz") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_penguin_sad:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+  /* keyframes */
+@keyframes characterSprite{
+  0% {background-position: 0 0;}
+  100% {background-position: 100% 0%;}
+}
+/* GRAPHICS */
+  /* logo for framed pages*/
+.sprite_polar_bear_happy.withLogo{
+  position: absolute;
+  margin: 42vh 30vw;
+  width:15vw;
+  height:15vw;
+}
+.sprite_penguin_happy.withLogo{
+  position: absolute;
+  margin: 42vh 54vw;
+  width:15vw;
+  height:15vw;
+}
+.logo{
+  width:20vw;
+  position: absolute;
+  margin: 35vh 40vw auto 40vw;
+}
+  /*global round buttons*/
+.roundButton{
+  background-color: rgba(237, 227, 170, 0.5);
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  display: block;
+  position: fixed;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+}
+.buttonText{
+  display: block;
+  position: absolute;
+  margin-top: 1.75vw
+}
+.homeButton{
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  margin: 2vh 2vw;
+}
+.topButton{
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  margin: 16vh 91vw;
+}
+.bottomButton{
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  margin: 76vh 91vw;
+}
+.firstButton{
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  margin: 28vh 91vw;
+}
+.secondButton{
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  margin: 40vh 91vw;
+}
+.thirdButton{
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  margin: 52vh 91vw;
+}
+.fourthButton{
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  margin: 64vh 91vw;
+}
+.bigTriangleArrow{
+  width: 0;
+  height: 0;
+  border-left: 1.25vw solid transparent;
+  border-right: 1.25vw solid transparent;
+  border-top: 1.5vw solid white;
+  display: block;
+  margin: 37.5% auto;
+}
+.bigTriangleArrow.up{
+  transform: rotate(180deg);
+}
+.homeIcon{
+  width:4vw;
+  height: 3vw;
+  background-color: white;
+  clip-path: polygon(50% 0, 0 30%, 20% 30%, 20% 100%, 40% 100%, 40% 65%, 60% 65%, 60% 100%, 80% 100%, 80% 30%, 100% 30%);
+  display: block;
+  position: relative;
+  margin: 20% auto;
+}
+  /*icons*/
+.icon.dayPage{
+  width:17vw;
+  display: block;
+  position: absolute;
+  z-index: 400;
+}
+.icon.dayPage.main.first{
+  margin: 45vh 5vw;
+}
+.icon.dayPage.main.second{
+  margin: 48vh 75vw;
+}
+.rest .icon.dayPage.first{
+  margin: 20vh 0 0 25vw;
+}
+.rest .icon.dayPage.second{
+  margin: 0 0 0 54vw;
+}
+  /*characters day page*/
+[class^="sprite"].dayMain1{
+  position: absolute;
+  margin: 65vh 12vw;
+  width:20vw;
+  height:20vw;
+}
+[class^="sprite"].dayMain2{
+  position: absolute;
+  margin: 65vh 65vw;
+  width:20vw;
+  height:20vw;
+}
+.rest [class^="sprite"].day1{
+  position: absolute;
+  margin:15vh 0 0 5vw;
+  width:20vw;
+  height:20vw;
+}
+.rest [class^="sprite"].day2{
+  position: absolute;
+  margin:15vh 0 0 71vw;
+  width:20vw;
+  height:20vw;
+}
+  /* arrow button */
+    /* global */
+.arrowButton{
+  font-size: 1.2vw;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  display:inline-block;
+  padding: 0.2vh 0.2vh 1vh 0.2vh;
+}
+.arrowButton:hover{
+  font-size: 1.3vw;
+  padding: 0;
+  transition: 0.2s;
+}
+.triangleArrow{
+  width: 0;
+  height: 0;
+  border-left: 0.75vw solid transparent;
+  border-right: 0.75vw solid transparent;
+  border-top: 1vw solid white;
+  display: block;
+  margin:2vh auto;
+}
+.triangleArrow.up{
+  transform: rotate(180deg);
+}
+    /* display page */
+.arrowButton.displayPage{
+  position: absolute;
+  margin: 80vh 43.5vw;
+}
+    /*day page*/
+.arrowButton.dayPage.up{
+  position: absolute;
+  margin: 35vh 46vw;
+}
+.arrowButton.dayPage.down{
+  position: absolute;
+  margin: 338vh 44vw 0;
+}
+  /*location text*/
+.location{
+  font-size: 1vw;
+  font-weight: 300;
+  display: block;
+  position: absolute;
+  margin-top: 40vh;
+}
+.location.first{
+  margin-left: 10vw;
+  margin-right: 70vw;
+}
+.location.second{
+  margin-left: 70vw;
+  margin-right:10vw;
+}
+  /* special buttons */
+.takeMeBack{
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 25.5vw;
+  padding: 2vw;
+  font-size: 2vw;
+}
+.takeMeBack:hover{
+  color:#153e75;
+  background-color: white;
+  margin-top: 4vh;
+  margin-left: 23vw;
+  padding: 2vw;
+  font-size: 2.5vw
+}
+  /*center block*/
+    /*day page*/
+.dayBlock{
+  display: block;
+  position: absolute;
+  background-color: rgba(255,255,255,0.5);
+  width: 15vw;
+  height: 217vh;
+  margin: 120vh 41.75vw 0;
+}
+/* TODAY PAGE SPECIAL */
+.todayAPI{
+  position: absolute;
+  margin: 100vh 10vw 0 10vw;
+}
+.todayRest{
+  position: absolute;
+  margin-top: 35vh;
+}
+.dayBlock.todayRest{
+  margin-top: 155vh;
+}
+.arrowButton.dayPage.down.todayRest{
+  position: absolute;
+  margin-top: 373vh;
+}
+.first .weather{
+  display:inline;
+}
+.first .high{
+  display:inline;
+}
+.first .low{
+  display:inline;
+}
+.second .weather{
+  display:inline;
+}
+.second .high{
+  display:inline;
+}
+.second .low{
+  display:inline;
+}
