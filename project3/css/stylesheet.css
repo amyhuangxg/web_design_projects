@@ -178,7 +178,7 @@ h1.display.errorPageDev{
   /* polar bear */
 .sprite_polar_bear_happy{
   display:block;
-  background:transparent url("../assets/polar_bear_happy.svgz") 0 0 no-repeat;
+  background:transparent url("../assets/polar_bear_happy.svg") 0 0 no-repeat;
   background-size:  900% 100%;
 }
 .sprite_polar_bear_happy:hover{
@@ -186,7 +186,7 @@ h1.display.errorPageDev{
 }
 .sprite_polar_bear_confused{
   display:block;
-  background:transparent url("../assets/polar_bear_confused.svgz") 0 0 no-repeat;
+  background:transparent url("../assets/polar_bear_confused.svg") 0 0 no-repeat;
   background-size:  900% 100%;
 }
 .sprite_polar_bear_confused:hover{
@@ -194,7 +194,7 @@ h1.display.errorPageDev{
 }
 .sprite_polar_bear_sad{
   display:block;
-  background:transparent url("../assets/polar_bear_sad.svgz") 0 0 no-repeat;
+  background:transparent url("../assets/polar_bear_sad.svg") 0 0 no-repeat;
   background-size:  900% 100%;
 }
 .sprite_polar_bear_sad:hover{
@@ -203,7 +203,7 @@ h1.display.errorPageDev{
   /* penguin */
 .sprite_penguin_happy{
   display:block;
-  background:transparent url("../assets/penguin_happy.svgz") 0 0 no-repeat;
+  background:transparent url("../assets/penguin_happy.svg") 0 0 no-repeat;
   background-size:  900% 100%;
 }
 .sprite_penguin_happy:hover{
@@ -211,7 +211,7 @@ h1.display.errorPageDev{
 }
 .sprite_penguin_confused{
   display:block;
-  background:transparent url("../assets/penguin_confused.svgz") 0 0 no-repeat;
+  background:transparent url("../assets/penguin_confused.svg") 0 0 no-repeat;
   background-size:  900% 100%;
 }
 .sprite_penguin_confused:hover{
@@ -219,7 +219,7 @@ h1.display.errorPageDev{
 }
 .sprite_penguin_sad{
   display:block;
-  background:transparent url("../assets/penguin_sad.svgz") 0 0 no-repeat;
+  background:transparent url("../assets/penguin_sad.svg") 0 0 no-repeat;
   background-size:  900% 100%;
 }
 .sprite_penguin_sad:hover{

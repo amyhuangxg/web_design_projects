@@ -22,30 +22,30 @@ $(".first .high").append(highRounded);
 $(".first .low").append(lowRounded);
 
 if (weatherIcon=="01d"||weatherIcon=="01n"){
-  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/sunny.svgz">');
+  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/sunny.svg">');
   $(".iconFirst").append('<div class="sprite_polar_bear_happy dayMain1"></div>');
 }else
 if (weatherIcon=="02d"||weatherIcon=="02n"){
-  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/mostly_sunny.svgz">');
+  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/mostly_sunny.svg">');
   $(".iconFirst").append('<div class="sprite_polar_bear_happy dayMain1"></div>');
 }else
 if (weatherIcon=="03d"||weatherIcon=="03n"){
-  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/partly_cloudy.svgz">');
+  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/partly_cloudy.svg">');
   $(".iconFirst").append('<div class="sprite_polar_bear_sad dayMain1"></div>');
 }else
 if (weatherIcon=="04d"||weatherIcon=="04n"){
-  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/cloudy.svgz">');
+  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/cloudy.svg">');
   $(".iconFirst").append('<div class="sprite_polar_bear_sad dayMain1"></div>');
 }else
 if (weatherIcon=="13d"||weatherIcon=="13n"){
-  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/snowing.svgz">');
+  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/snowing.svg">');
   $(".iconFirst").append('<div class="sprite_polar_bear_sad dayMain1"></div>');
 }else
 if (weatherIcon=="50d"||weatherIcon=="50n"){
-  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/foggy.svgz">');
+  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/foggy.svg">');
   $(".iconFirst").append('<div class="sprite_polar_bear_confused dayMain1"></div>');
 }else{
-  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/question_mark.svgz">');
+  $(".imgFirst").append('<img class="dayPage icon main first" src="../assets/question_mark.svg">');
   $(".iconFirst").append('<div class="sprite_polar_bear_confused dayMain1"></div>');
   }
 });
@@ -65,30 +65,30 @@ $(".second .high").append(highRounded);
 $(".second .low").append(lowRounded);
 
 if (weatherIcon=="01d"||weatherIcon=="01n"){
-  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/sunny.svgz">');
+  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/sunny.svg">');
   $(".iconSecond").append('<div class="sprite_penguin_happy dayMain2"></div>');
 }else
 if (weatherIcon=="02d"||weatherIcon=="02n"){
-  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/mostly_sunny.svgz">');
+  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/mostly_sunny.svg">');
   $(".iconSecond").append('<div class="sprite_penguin_happy dayMain2"></div>');
 }else
 if (weatherIcon=="03d"||weatherIcon=="03n"){
-  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/partly_cloudy.svgz">');
+  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/partly_cloudy.svg">');
   $(".iconSecond").append('<div class="sprite_penguin_sad dayMain2"></div>');
 }else
 if (weatherIcon=="04d"||weatherIcon=="04n"){
-  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/cloudy.svgz">');
+  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/cloudy.svg">');
   $(".iconSecond").append('<div class="sprite_penguin_sad dayMain2"></div>');
 }else
 if (weatherIcon=="13d"||weatherIcon=="13n"){
-  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/snowing.svgz">');
+  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/snowing.svg">');
   $(".iconSecond").append('<div class="sprite_penguin_sad dayMain2"></div>');
 }else
 if (weatherIcon=="50d"||weatherIcon=="50n"){
-  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/foggy.svgz">');
+  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/foggy.svg">');
   $(".iconSecond").append('<div class="sprite_penguin_confused dayMain2"></div>');
 }else{
-  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/question_mark.svgz">');
+  $(".imgSecond").append('<img class="dayPage icon main second" src="../assets/question_mark.svg">');
   $(".iconSecond").append('<div class="sprite_penguin_confused dayMain2"></div>');
   }
 });
