@@ -1,0 +1,32 @@
+[class*=reading]{
+  display: block;
+  position: sticky;
+  top: 20vh;
+  left: 5vw;
+  width: 80vw;
+  height: 60vh;
+  background-color: white;
+  padding: 0 5vw 10vw 5vw;
+  border: solid 0.2vw black;
+  margin-top: 15vh;
+}
+.manefesto{
+  margin:0;
+  border: solid 1vw white;
+  height: auto;
+}
+[class*=reading]>p{
+  font-size: 1.2vw;
+}
+.columns2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+[class*=is]{
+  width: 35vw;
+}
+dl{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75vw;
+  line-height: 3vw;
+}

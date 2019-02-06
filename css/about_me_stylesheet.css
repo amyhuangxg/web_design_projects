@@ -1,0 +1,255 @@
+p{
+  margin: auto 5% 3% 5%;
+}
+.ten{
+  z-index: 100;
+  width: 50vw;
+  opacity:1;
+}
+.ten [class*="unfold"]{
+  position: absolute;
+  top:-10vw;
+}
+.ten [class*="unfold"].text{
+  position: absolute;
+  top: -5vw;
+  height:46vw;
+  overflow: scroll;
+}
+.nine{
+  z-index: 90;
+  width: 40vw;
+  opacity:0.9;
+}
+.nine [class*="unfold"]{
+  position: absolute;
+  top:-8vw;
+}
+.nine [class*="unfold"].text{
+  position: absolute;
+  top:-4vw;
+  height:32vw;
+  overflow: scroll;
+}
+.eight{
+  z-index: 80;
+  width: 35vw;
+  opacity:0.8;
+}
+.eight [class*="unfold"]{
+  position: absolute;
+  top:-6vw;
+}
+.eight [class*="unfold"].text{
+  position: absolute;
+  top:-3vw;
+  height:30vw;
+  overflow: scroll;
+}
+.seven{
+  z-index: 70;
+  width: 30vw;
+  opacity:0.7;
+}
+.seven [class*="unfold"]{
+  position: absolute;
+  top:-2vw;
+}
+.seven [class*="unfold"].text{
+  position: absolute;
+  top:-1vw;
+  height:28vw;
+  overflow: scroll;
+}
+.six{
+  z-index: 60;
+  width: 28vw;
+  opacity:0.6;
+}
+.six [class*="unfold"]{
+  position: absolute;
+  top:-2vw;
+}
+.six [class*="unfold"].text{
+  position: absolute;
+  top:-1vw;
+  height:26vw;
+  overflow: scroll;
+}
+.five{
+  z-index: 50;
+  width: 25vw;
+  opacity:0.5;
+}
+.five [class*="unfold"]{
+  position: absolute;
+  top:-2vw;
+}
+.five [class*="unfold"].text{
+  position: absolute;
+  top:-1vw;
+  height:22vw;
+  overflow: scroll;
+}
+.two{
+  z-index: 20;
+  width: 20vw;
+  opacity:0.4;
+}
+.two [class*="unfold"]{
+  position: absolute;
+  top:-1vw;
+}
+.two [class*="unfold"].text{
+  position: absolute;
+  top:-0.5vw;
+  height:19vw;
+  overflow: scroll;
+}
+.one{
+  z-index: 10;
+  width: 18vw;
+  opacity:0.35;
+}
+.one [class*="unfold"]{
+  position: absolute;
+  top:-1vw;
+}
+.one [class*="unfold"].text{
+  position: absolute;
+  top:-0.5vw;
+  height:17vw;
+  overflow: scroll;
+}
+.zero{
+  z-index: 0;
+  width: 15vw;
+  opacity:0.35;
+}
+.zero [class*="unfold"]{
+  position: absolute;
+  top:-1vw;
+}
+.zero [class*="unfold"].text{
+  position: absolute;
+  top:-0.5vw;
+  height:14.5vw;
+  overflow: scroll;
+}
+div.crane{
+  display: inline-block;
+  position: relative;
+  top:30vh;
+  left: 25vw;
+}
+div.plane{
+  display: inline-block;
+  position: relative;
+  top:60vh;
+  left: 25vw;
+}
+div.grass{
+  display: inline-block;
+  position: relative;
+  top: 100vh;
+  left: 0vw;
+}
+div.sheep{
+  display: inline-block;
+  position: relative;
+  top: 85vh;
+  left:15vw;
+}
+div.pen{
+  display: inline-block;
+  position: relative;
+  top: 150vh;
+  left: 0vw;
+}
+div.journal{
+  display: inline-block;
+  position: relative;
+  top: 45vh;
+  left: -65vw;
+}
+div.skull{
+  display: inline-block;
+  position: relative;
+  top: 200vh;
+  left:-15vw;
+}
+div.snowsun{
+  display: inline-block;
+  position: relative;
+  top: 80vh;
+  left: 5vw;
+}
+div.sunflower{
+  display: inline-block;
+  position: relative;
+  top:35vh;
+  left:25vw;
+}
+div.star{
+  display: inline-block;
+  position: relative;
+  top:125vh;
+  left:25vw;
+}
+.visonhover{
+  opacity:0;
+  height: 0;
+}
+.visonhover:hover{
+  opacity: initial;
+}
+.line{
+  height: 400vh;
+  width: 0.5%;
+  background-color: black;
+  position: absolute;
+  top: -400vh;
+}
+.crane>.line{
+  left: 24.5vw;
+  padding-bottom: 13vw;
+}
+.plane>.line{
+  left: 22vw;
+  padding-bottom: 8.5vw;
+}
+.grass>.line{
+  left: 18vw;
+  padding-bottom: 8vw;
+}
+.sheep>.line{
+  left: 14vw;
+  padding-bottom: 3.5vw;
+}
+.pen>.line{
+  left: 15vw;
+  padding-bottom: 9vw;
+}
+.journal>.line{
+  left: 12vw;
+  padding-bottom: 8vw;
+}
+.skull>.line{
+  left: 12vw;
+  padding-bottom: 0vw;
+}
+.snowsun>.line{
+  left: 11vw;
+  padding-bottom: 3vw;
+}
+.sunflower>.line{
+  left: 9vw;
+  padding-bottom: 1.5vw;
+}
+.star>.line{
+  left:7.5vw;
+  padding-bottom: 0.2vw;
+}
+footer>.aboutmebottom{
+  margin-top: 190vh;
+}
