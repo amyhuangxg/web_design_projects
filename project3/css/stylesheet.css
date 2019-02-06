@@ -13,6 +13,18 @@ body{
 .main{
   display: block;
 }
+button{
+  text-decoration: inherit;
+  background: none;
+  border: none;
+  width: inherit;
+  height: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-transform: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+}
 /* TEXT */
 .month{
   display: inline;
@@ -61,6 +73,10 @@ p{
   text-transform: none;
   text-align: center;
 }
+p.errorMessage{
+  position:absolute;
+  margin: 75vh 20vw 0 20vw;
+}
 h3.today{
   margin-left: 39vw;
 }
@@ -80,6 +96,13 @@ h3.jan29{
 .timezones.today{
   position: absolute;
   margin: 145vh 10vw 0 10vw;
+}
+h1.display.errorPage{
+  margin-left: 40vw;
+}
+h1.display.errorPageDev{
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
   /*info block*/
 .infoBlock{
@@ -390,6 +413,11 @@ h3.jan29{
 .arrowButton.dayPage.down{
   position: absolute;
   margin: 338vh 44vw 0;
+}
+  /* error page */
+.arrowButton.errorPage{
+  position:absolute;
+  margin: 85vh 45vw;
 }
   /*location text*/
 .location{

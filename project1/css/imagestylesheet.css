@@ -1,0 +1,70 @@
+[src*="finger_walk"]{
+  width: 15vw;
+}
+[src*="heart_beating"]{
+  width: 15vw;
+  padding-top: 10vh;
+}
+[src*="speech_bubble"]{
+  width: 20vw;
+  position: relative;
+  left:30vw;
+}
+[src*="cry_face"]{
+  width: 25vw;
+  position: relative;
+  left:25vw;
+}
+[src*="cry_tear"]{
+  width: 80vw;
+}
+[src*="sea_black"]{
+  width: 80vw;
+}
+[src*="boat"]{
+  width: 50vw;
+  position: relative;
+  left:15vw;
+}
+[src*="clap"]{
+  width: 20vw;
+  position: relative;
+  top:5vw;
+}
+.c{
+  text-align: center;
+}
+.r{
+  text-align: right;
+}
+h1{
+  display: block;
+  position: absolute;
+  top: 25vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.chase{
+  position: absolute;
+  top:5vh;
+  left: 35vw;
+}
+#king{
+  position: absolute;
+  top:65vh;
+  right: 10vw;
+}
+#from{
+  position: absolute;
+  top: 55vh;
+  left: 19vw;
+}
+.q1{
+  margin-left: 20%;
+}
+.q2{
+  margin-left: 40%;
+}
+.q3{
+  margin-left: 60%;
+}

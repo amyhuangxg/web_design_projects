@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Varela');
+/* TEXT */
+h1{
+  z-index: 200;
+  font-family: 'Varela', sans-serif;
+}
+h1.homepage{
+  font-size: 6.5vw;
+  letter-spacing: 0.4vw;
+  line-height: 7vw;
+}
+h1.inbar{
+  font-size: 2.5vw;
+  letter-spacing: 0.14vw;
+  line-height: 2.6vw;
+  display: block;
+  position: fixed;
+  top: 3vh;
+  left: 5vw;
+}
+h2{
+  font-family: 'Varela', sans-serif;
+  font-size: 2.8vw;
+  letter-spacing: 0.14vw;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.5vw;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75vw;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.topmenu{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  display: block;
+}
+.topmenu:hover{
+  font-size: 2vw;
+}
+.barmenu{
+  z-index: 200;
+}
+.barmenu.attop{
+  position: fixed;
+  top:0;
+  background-color: white;
+}
+.barmenu>li{
+  display: inline-block;
+}
+.barmenu a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  width:15vw;
+  margin: 0.5vw 0 0.2vw 0;
+  border: solid 0.5vw transparent;
+  padding: 0.5vw;
+}
+.barmenu a:hover{
+  font-size: 1.7vw;
+  margin: 0;
+  padding: 0.5vw;
+  border: solid 0.5vw black;
+}
+.belowbar{
+  display: block;
+  position: absolute;
+  top: 20vh;
+  margin: 0 10vw;
+}
+.belowbar>.sidefeatures{
+  margin: auto -4vw;
+}
+.backtotop{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+.backtotop:hover{
+  font-size: 1.2vw;
+}
+/* POSITIONING */
+h1.homepage{
+  display: block;
+  position: absolute;
+  top: 15vh;
+}
+h1.homepage>.first{
+  display: inline;
+  position: relative;
+  left: 15vw;
+}
+h1.homepage>.second{
+  display: inline;
+  position: absolute;
+  left: 27vw;
+}
+.intro{
+  display: block;
+  position: absolute;
+  margin: 40vh 0 0 60vw;
+}
+.intro>.line{
+  display: inline-block;
+  height: 3vw;
+  width:0.1vw;
+  background-color: black;
+  position:absolute;
+  margin-top: 1.5vw;
+}
+.intro>p{
+  display: inline-block;
+  margin-left: 1vw;
+}
+.topmenu.aboutme{
+  transform: rotate(-90deg);
+  display: block;
+  position: absolute;
+  margin:45vh 0 0 0;
+}
+.topmenu.aboutme:hover{
+  margin: 45vh 0 0 -0.5vw;
+}
+.topmenu.insights{
+  transform: rotate(90deg);
+  display: block;
+  position: absolute;
+  margin:46vh 0 0 88vw;
+}
+.topmenu.insights:hover{
+  margin: 46vh 0 0 87.5vw;
+}
+.topmenu.behindthescenes{
+  display: block;
+  position: absolute;
+  margin:87.5vh 0 0 67.5vw;
+}
+.topmenu.behindthescenes:hover{
+  margin-left: 66.5vw;
+}
+.bar{
+  display: block;
+  position: absolute;
+  margin:95vh 0 0 0;
+}
+.horizontalbar{
+  width:87vw;
+  height:1.5vw;
+  border: solid 0.2vw black;
+  margin: 0 0 0 6vw;
+}
+.barmenu{
+  margin-left: 20vw;
+}
+.barmenu .arrows{
+  position: relative;
+  bottom: 1.5vh;
+}
+.barmenu .aboutme{
+  position: relative;
+  bottom: 1.5vh;
+}
+.barmenu .insights{
+  position: relative;
+  bottom: 1.5vh;
+}
+.featured{
+  position: absolute;
+  margin: 120vh 5vw 0 5vw;
+  line-height: 1vh;
+}
+.mainfeatureblock{
+  display: block;
+  padding: 2vw;
+}
+.mainfeatureblock img{
+  display: block;
+  width:85vw;
+  height: 47vw;
+  background-color: grey;
+}
+.sidefeatures{
+  display: grid;
+  grid-template-columns: repeat(2,1fr)
+}
+.sidefeatureblock{
+  display: inline-block;
+  padding: 2vw;
+}
+.sidefeatureblock img{
+  display: block;
+  width:40vw;
+  background-color: grey;
+}
+footer{
+  display: block;
+  position: absolute;
+  margin-bottom: 5vh;
+}
+footer.indexbottom{
+  margin-top: 440vh;
+}
+footer>.backtotop{
+  margin-left: 45.2vw;
+}
+footer>.backtotop:hover{
+  margin-left: 44.7vw;
+}
+/* For Behind the Scenes Page */
+.mb{
+  margin-bottom: 5vh;
+}
+footer.behindthescenesbottom{
+  margin-top: 590vh;
+}

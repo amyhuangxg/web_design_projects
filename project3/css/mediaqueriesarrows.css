@@ -1,0 +1,24 @@
+.triangleArrow{
+  width: 0;
+  height: 0;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  border-top: 2.75vw solid white;
+}
+.arrowButton{
+  font-size: 3vw;
+}
+.arrowButton:hover{
+  font-size: 3.2vw;
+}
+.arrowButton.displayPage{
+  position: absolute;
+  margin: 80vh 35vw;
+}
+.arrowButton.errorPage{
+  position:absolute;
+  margin: 85vh 40vw;
+}
+p{
+  font-size: 2.3vw;
+}

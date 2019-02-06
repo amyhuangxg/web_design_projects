@@ -293,7 +293,7 @@ dd {
 	height: 170.8vh;
 	width: 170.8vh;
 	border-radius: 85.4vh;
-} 
+}
 .circle7o {
 	z-index: 20;
 	position: absolute;
@@ -328,7 +328,3 @@ dd {
     from {transform:rotate(0deg);}
     to {transform:rotate(-360deg);}
 }
-
-
-
-

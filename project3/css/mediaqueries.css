@@ -1,0 +1,128 @@
+@media screen and (max-width: 100vh){
+  .infoBlock.dayPage{
+    font-size: 5vw;
+    font-weight: 700;
+    margin-left: 12vw;
+  }
+  .infoBlock.dayPage>h4{
+    font-size: 4vw;
+  }
+  .infoBlock.dayPage.main>h4{
+    margin-left: 28vw;
+  }
+  .rest .infoBlock.dayPage>h4{
+    margin-left: 33vw;
+  }
+  .infoBlock.dayPage>dl>dt{
+    float: left;
+    clear: left;
+  }
+  .infoBlock.dayPage>dl>dt{
+    width: 40vw;
+    text-align: right;
+  }
+  .infoBlock.dayPage>dl>dd{
+    margin: 0 0 0 44vw;
+    text-align: left;
+  }
+  .infoBlock.dayPage>dl.second{
+    display: block;
+    margin-left:0vw;
+  }
+  .dayBlock{
+    opacity: 0;
+  }
+  [class*="sprite"]{
+    opacity:0;
+  }
+  .roundButton{
+    width: 12vw;
+    height: 12vw;
+    font-size: 2vw;
+    right: 2vw;
+  }
+  .buttonText{
+    display: block;
+    position: absolute;
+    margin-top: 3.5vw;
+  }
+  .homeButton .roundButton {
+    position: fixed;
+    left: 2vw;
+  }
+  .homeIcon{
+    width:8vw;
+    height: 6vw;
+  }
+  .triangleArrow{
+    width: 0;
+    height: 0;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 2.75vw solid white;
+  }
+  .bigTriangleArrow{
+    width: 0;
+    height: 0;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 2.75vw solid white;
+  }
+  .arrowButton{
+    font-size: 3vw;
+  }
+  .arrowButton:hover{
+    font-size: 3.2vw;
+  }
+  .arrowButton.dayPage.up{
+    position: absolute;
+    margin: 35vh 41vw;
+  }
+  .arrowButton.dayPage.down{
+    position: absolute;
+    margin: 350vh 36vw 0;
+  }
+  .arrowButton.dayPage.down.todayRest{
+    position: absolute;
+    margin-top: 393vh;
+  }
+  h2{
+    font-size: 2.5vw;
+  }
+  h3{
+    font-size: 3vw;
+    left:-4vw;
+  }
+  p{
+    font-size: 2.3vw;
+  }
+  .location{
+    font-size: 2.5vw;
+  }
+  .takeMeBack{
+    margin-left: 18vw;
+    font-size: 3.5vw;
+  }
+  .takeMeBack:hover{
+    margin-left: 17vw;
+    font-size: 3.7vw
+  }
+  .icon.dayPage{
+    width:17vw;
+    display: block;
+    position: absolute;
+    z-index: 400;
+  }
+  .icon.dayPage.main.first{
+    margin: 62vh 15vw;
+  }
+  .icon.dayPage.main.second{
+    margin: 87vh 15vw;
+  }
+  .rest .icon.dayPage.first{
+    margin: 18vh 0 0 15vw;
+  }
+  .rest .icon.dayPage.second{
+    margin: 45vh 0 0 15vw;
+  }
+}
