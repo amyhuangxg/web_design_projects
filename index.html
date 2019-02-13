@@ -3,7 +3,10 @@
 	<header>
 		<meta charset="utf-8">
 		<meta name="description" content="Amy Huang's web design.">
+		<link href="css/reset.css" rel="stylesheet">
 		<link href="css/stylesheet.css" rel="stylesheet">
+		<link href="css/default_positioning.css" rel="stylesheet">
+		<link href="css/parallax_initial_positions.css" rel="stylesheet">
 		<title>Amy Huang Web Design</title>
 	</header>
 	<body>
@@ -12,55 +15,61 @@
 		<div id=indextop></div>
     <h1 class=homepage>
       <div class=first>Hi,<br>I'm</div><br>
-      <div class=second>Amy<br>Huang,</div>
+      <div class=second><div class=name><a href="#indextop">Amy<br>Huang</a></div><div class=comma>,</div></div>
     </h1>
-    <div class=intro>
-      <div class=line></div>
-      <p>and here is my web design.</p>
-    </div>
-  <!-- menu -->
-    <a class="topmenu aboutme" href="about_me.html">About Me</a>
-    <a class="topmenu insights" href="insights.html">Insights</a>
-		<a class="topmenu behindthescenes" href="behind_the_scenes.html">Get behind the scenes</a>
+	  <div class=intro>
+			<div class=introparagraph>
+		  	<div class=line></div>
+		    <p>and here is my web design.</p>
+		  </div>
+		</div>
+	  <!-- menu -->
+	  <a class="topmenu aboutme" href="about_me.html"><div class=aboutlink>About Me</div></a>
+	  <a class="topmenu insights" href="insights.html"><div class=insightslink>Insights</div></a>
+		<a class="topmenu behindthescenes" href="behind_the_scenes.html"><div class=behindlink>Get behind the scenes</div></a>
     <div class="bar index">
 			<div class=horizontalbar></div>
+			<div class="whitebar">
 			<ul class="barmenu">
 				<li><a class=polaropposites href="polar_opposites.html">Polar Opposites</a></li>
 	      <li><a class=arrows href="arrows.html">Arrows</a></li>
 	      <li><a class=youllbeback href="project1/html/index.html"target="_blank">You'll be Back</a></li>
 	      <li><a class=josefbrockmann href="exercise1/html/index.html" target="_blank"> Brockmann's Poster</a></li>
 	    </ul>
-		</div>
-  <!-- project features -->
-		<div class=featured>
-	    <div class=mainfeatureblock>
-	      <h2>Polar Opposites</h2>
-	      <h3>Curious about what's happening on the other side of the world?</h3>
-	      <a class=polaropposites href="polar_opposites.html"><img src="assets/polaroppositesmf.png"></a>
-	    </div>
-	    <div class=mainfeatureblock>
-	      <h2>Arrows</h2>
-	      <h3>Arrows are easy, just go the way they point...or think again.</h3>
-	      <a class=arrows href="arrows.html"><img src="assets/arrowsmf.png"></a>
-	    </div>
-			<div class=sidefeatures>
-		    <div class=sidefeatureblock>
-		      <h2>You'll be Back</h2>
-		      <h3>A redesign of lyrics from <i>Hamilton</i>.</h3>
-		      <a class=youllbeback href="project1/html/index.html"target="_blank"><img src="assets/youllbebacksf.png"></a>
-		    </div>
-		    <div class=sidefeatureblock>
-		      <h2>Brockmann's Poster</h2>
-		      <h3>Josef Brockmann's work but only in html and css.</h3>
-		      <a class=josefbrockmann href="exercise1/html/index.html" target="_blank"><img src="assets/brockmannsf.png"></a>
-		    </div>
 			</div>
 		</div>
+  <!-- project features -->
+		<div class="positionblock index1">
+			<div class=featured>
+		    <div class=mainfeatureblock>
+		      <h2>Polar Opposites</h2>
+		      <h3>Curious about what's happening on the other side of the world?</h3>
+		      <a class=polaropposites href="polar_opposites.html"><img src="assets/polaroppositesmf.png"></a>
+		    </div>
+		    <div class=mainfeatureblock>
+		      <h2>Arrows</h2>
+		      <h3>Arrows are easy, just go the way they point...or think again.</h3>
+		      <a class=arrows href="arrows.html"><img src="assets/arrowsmf.png"></a>
+		    </div>
+				<div class=sidefeatures>
+			    <div class=sidefeatureblock>
+			      <h2>You'll be Back</h2>
+			      <h3>A redesign of lyrics from <i>Hamilton</i>.</h3>
+			      <a class=youllbeback href="project1/html/index.html"target="_blank"><img src="assets/youllbebacksf.png"></a>
+			    </div>
+			    <div class=sidefeatureblock>
+			      <h2>Brockmann's Poster</h2>
+			      <h3>Josef Brockmann's work but only in html and css.</h3>
+			      <a class=josefbrockmann href="exercise1/html/index.html" target="_blank"><img src="assets/brockmannsf.png"></a>
+			    </div>
+				</div>
+			</div>
+			<footer class=indexbottom>
+		    <a class=backtotop href="#indextop">back to top</a>
+		  </footer>
+		</div>
   </main>
-  <!-- footer -->
-  <footer class=indexbottom>
-    <a class=backtotop href="#indextop">back to top</a>
-  </footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/parallax_scroll_index.js"></script>
   </body>
 </html>

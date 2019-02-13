@@ -1,0 +1,35 @@
+.name{
+  display: inline-block;
+  position: relative;
+  left:;
+  top:;
+  font-size:;
+  letter-spacing:;
+  line-height:;
+}
+.comma{
+  display: inline-block;
+  position: relative;
+}
+.introparagraph{
+  display: inline-block;
+  position: relative;
+  left:;
+}
+.aboutlink{
+  display: inline-block;
+  position: relative;
+  left:;
+  top:;
+}
+.insightslink{
+  display: inline-block;
+  position: relative;
+  left:;
+  top:;
+}
+.behindlink{
+  display: inline-block;
+  position: relative;
+  left:;
+}

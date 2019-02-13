@@ -1,0 +1,156 @@
+/* GLOBAl */
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}
+.positionblock{
+  display:block;
+  width: 100vw;
+}
+.bar{
+  display: block;
+  position: absolute;
+  top: 55vw;
+  left: 6vw;
+}
+.horizontalbar{
+  width:87vw;
+  height:1.5vw;
+  border: solid 0.2vw black;
+}
+.barmenu{
+  position: relative;
+  top: 2vw;
+  left: 15vw;
+}
+.whitebar{
+  position: relative;
+  top: 0;
+}
+.barmenu.attop{
+  left: 20vw;
+}
+.belowbar{
+  display: block;
+  position: relative;
+  top: 10vw;
+}
+.barmenu .arrows{
+  position: relative;
+  bottom: 1vw;
+}
+.barmenu .aboutme{
+  position: relative;
+  bottom: 1vw;
+}
+.barmenu .insights{
+  position: relative;
+  bottom: 1vw;
+}
+.featured{
+  display: block;
+  position: relative;
+  margin: 5vw;
+}
+.mainfeatureblock{
+  display: block;
+  padding: 2vw;
+}
+.mainfeatureblock img{
+  display: block;
+  width:85vw;
+  height: auto;
+  background-color: grey;
+}
+.sidefeatures{
+  display: grid;
+  grid-template-columns: repeat(2,1fr)
+}
+.sidefeatureblock{
+  display: inline-block;
+  padding: 2vw;
+}
+.sidefeatureblock img{
+  display: block;
+  width:40vw;
+  background-color: grey;
+}
+footer{
+  display: block;
+  position: relative;
+  margin: 5vh;
+}
+
+/* INDEX PAGE */
+h1.homepage{
+  display: inline-block;
+  position: relative;
+  left: 15vw;
+  top: 7.5vw;
+}
+h1.homepage>.first{
+  display: inline;
+  position: relative;
+}
+h1.homepage>.second{
+  display: inline;
+  position: relative;
+  left: 12vw;
+}
+.intro{
+  display: inline-block;
+  position: relative;
+  left:35vw;
+  top: 2vw;
+}
+.intro .line{
+  display: inline-block;
+  height: 3vw;
+  width:0.1vw;
+  background-color: black;
+  position:relative;
+  top: 1vw;
+}
+.intro p{
+  display: inline-block;
+  margin-left: 1vw;
+}
+.topmenu.aboutme{
+  transform: rotate(-90deg);
+  display: inline-block;
+  position: relative;
+  left:-50vw;
+  top: 5vw;
+  margin: 0.6vw;
+}
+.topmenu.aboutme:hover{
+  margin: 0;
+}
+.topmenu.insights{
+  transform: rotate(90deg);
+  display: inline-block;
+  position: relative;
+  left: 22vw;
+  top: 5vw;
+  margin: 0.6vw;
+}
+.topmenu.insights:hover{
+  margin: 0;
+}
+/* TAKE OUT FOR OWN VERSION */
+      .topmenu.behindthescenes{
+        display: inline-block;
+        position: relative;
+        margin:0.6vw;
+        left: 65vw;
+        top: 23vw;
+      }
+      .topmenu.behindthescenes:hover{
+        margin:0;
+      }
+/* TAKE OUT FOR OWN VERSION */
+.positionblock.index1{
+  position: absolute;
+  top: 60vw;
+  margin-top:7vw;
+}

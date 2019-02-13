@@ -1,11 +1,9 @@
 img{
-  width: 80vw;
+  width: 85vw;
 }
 .barmenu.forlink{
-  height: 30vh;
-  padding-top: 20vh;
-  padding-left: 12vw;
-}
-.arrowsbottom>a{
-  margin-top: 360vh;
+  position: relative;
+  top: 10vh;
+  left: 37vw;
+  margin-bottom:20vh;
 }
