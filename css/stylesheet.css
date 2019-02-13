@@ -50,7 +50,7 @@ a{
   z-index: 200;
 }
 .whitebar{
-  z-index: 100;
+  z-index: 199;
   width: 100vw;
   height: 9vw;
   background-color: white;

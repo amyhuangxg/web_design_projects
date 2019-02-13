@@ -210,43 +210,43 @@ div.star{
   position: absolute;
   top: -400vh;
 }
-.crane>.line{
+.crane .line{
   left: 24.5vw;
   padding-bottom: 13vw;
 }
-.plane>.line{
+.plane .line{
   left: 22vw;
   padding-bottom: 8.5vw;
 }
-.grass>.line{
+.grass .line{
   left: 18vw;
   padding-bottom: 8vw;
 }
-.sheep>.line{
+.sheep .line{
   left: 14vw;
   padding-bottom: 3.5vw;
 }
-.pen>.line{
+.pen .line{
   left: 15vw;
   padding-bottom: 9vw;
 }
-.journal>.line{
+.journal .line{
   left: 12vw;
   padding-bottom: 8vw;
 }
-.skull>.line{
+.skull .line{
   left: 12vw;
   padding-bottom: 0vw;
 }
-.snowsun>.line{
+.snowsun .line{
   left: 11vw;
   padding-bottom: 3vw;
 }
-.sunflower>.line{
+.sunflower .line{
   left: 9vw;
   padding-bottom: 1.5vw;
 }
-.star>.line{
+.star .line{
   left:7.5vw;
   padding-bottom: 0.2vw;
 }
